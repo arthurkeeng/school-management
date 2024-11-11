@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-
+import Head from "next/head";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,6 +14,10 @@ async function RootLayout({
 }>) {
   return (
       <html lang="en">
+          <Head>
+        {/* Link to your new icon */}
+        <link rel="icon" href="/logo.png" type="image/png" />
+      </Head>
         <body>
          
           {children}
