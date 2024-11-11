@@ -8,7 +8,7 @@ const HomePage =()=>{
        <div className="p-6 space-y-4">
       This would have the school's default homepage
     </div>
-        <Link  href = "/admin" className= 'btn p-3 absolute top-4 left-5>
+        <Link  href = "/admin" className= 'btn p-3 absolute top-4 left-5'>
             <button>Click here for more
             </button>
         </Link>
